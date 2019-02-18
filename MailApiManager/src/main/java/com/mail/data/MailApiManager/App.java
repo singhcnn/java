@@ -31,9 +31,9 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class App {
 	private static final String HOST = "pop.gmail.com";
-	private static final String USER = "singh.cnn@gmail.com";
+	private static final String USER = "your mail id@gmail.com";
 	private static final String MAILSTORTYPE = "pop3";
-	private static final String PASSWD = "v6000sandy";
+	private static final String PASSWD = "password";
 	private static Folder emailFolder = null;
 	private static final String[] columns = { "FROM", "SUBJECT", "DATE ", "TIME", "LABEL",
 			"ATTACHMENT NAME/FILE NAME" };
